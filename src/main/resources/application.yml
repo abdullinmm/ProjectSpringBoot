@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mabdullindb
+    username: mabdullin
+    password: 609Cc609
+    driverClassName: org.postgresql.Driver
+  sql:
+    init:
+      platform: postgres
